@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  </style>
+  
+</head>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="./images/cloud.png" alt="top-cloud">
+    <div class="profile">
+    <img class="profile-img" src="./images/WhatsApp Image 2025-04-13 at 22.56.20_4b55955c.jpg" alt="profile-photo">
+    <div class="title-text">
+      <h1>I'm Mohd Faiz</h1>
+      <h2>a <span class="pro">Pro</span>grammer</h2>
+    </div>
+    <img class="bottom-cloud" src="./images/cloud.png" alt="bottom-cloud">
+  </div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<div class="white">
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a final-year B.Tech Computer Science student with a strong interest in software development, data structures, and problem-solving. I enjoy building real-world projects and continuously improving my skills through hands-on learning and online courses. I'm passionate about contributing to tech-driven solutions and eager to begin my career in a collaborative and growth-oriented environment.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python (Angela Yu's Bootcamp)</li>
+      <li>Node.js</li>
+      <li>Express.js</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>Dice Game</li>
+      <li>Web Design Agency Page</li>
+      <li>Pricing Table</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:f6e315b3-9fb6-416c-a6fa-82c35f3412ce" download class="btn">Download Resume</a>
+  </section>
+
+   <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formStatus"></p>
+  </section>
+</div>
+
+<footer>
+    <p class="footer-color">© 2025 Mohd Faiz. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
